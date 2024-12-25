@@ -1,7 +1,9 @@
 package Others.Array;
+
+//Give array is sorted
 import java.util.*;
 public class PairSum1_2pointer {
-    public static Boolean pairSum(ArrayList<Integer>list, int target){
+    public static boolean pairSum(ArrayList<Integer>list, int target){
         int lp=0;
         int hp = list.size()-1;
         while(lp<hp){

@@ -1,5 +1,7 @@
-import java.util.*;
+//Give array is sorted
 
+
+import java.util.*;
 public class PairSum1 {
 
     public static Boolean check(ArrayList<Integer> list,int target){

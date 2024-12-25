@@ -31,3 +31,21 @@ public class ContainerWithMostWater{
     }
 
 }
+
+
+/*  TLE in leetcode -> hehe!!!
+class Solution {
+    public int maxArea(int[] height) {
+        int maxWater = 0;
+        for(int i=0; i <height.length;i++){
+            for(int j= i+1;j<height.length;j++){
+               int width =  j-i;
+               int h = Math.min(height[i],height[j]);
+               int water = width * h;
+            maxWater = Math.max(maxWater,water);
+            }
+        }
+        return maxWater;    
+    }
+}
+*/

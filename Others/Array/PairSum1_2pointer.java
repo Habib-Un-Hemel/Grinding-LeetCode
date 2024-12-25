@@ -6,7 +6,7 @@ public class PairSum1_2pointer {
     public static boolean pairSum(ArrayList<Integer>list, int target){
         int lp=0;
         int hp = list.size()-1;
-        while(lp<hp){
+        while(lp!=hp){
             if (list.get(hp)+list.get(lp) == target){
                 return true;
             }

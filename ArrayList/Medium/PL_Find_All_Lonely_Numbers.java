@@ -1,6 +1,6 @@
 //Question LInk: https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/
-
-
+// 2 approachs are there 1. sorting O(nlogn) + O(n) => O(nlogn)  space O(1)
+// appoarch 2. frequency array => O(n)  space O(frequency table)
 import java.util.*;
 
 public class PL_Find_All_Lonely_Numbers{

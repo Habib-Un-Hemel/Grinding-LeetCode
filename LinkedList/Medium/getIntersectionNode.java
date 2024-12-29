@@ -10,8 +10,8 @@
  *     }
  * }
  */
-public class Solution {
-    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+public class getIntersectionNode {
+    public ListNode getIntersectionNode_(ListNode headA, ListNode headB) {
         ListNode tempA = headA;
         ListNode tempB = headB;
         int sizeA = 0;
